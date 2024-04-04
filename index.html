@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+      Title Website
+       -->
+    <title>BOGA- Bogor Asri</title>
+    <meta name="title" content="BOGA - Bogor Asri" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload active" data-preaload>
+      <img src="boga3-logo-normal.png" alt="" />
+      <div class="circle"></div>
+      <p class="text">BOGOR ASRI</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container glass">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </div>
+
+          <span class="span">Public Service Apps</span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+
+          <span class="span"> Bogor - West Java - Indonesia </span>
+        </div>
+
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="language-outline"></ion-icon>
+          </div>
+
+          <span class="span">English</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="#" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="shapes"></ion-icon>
+          </div>
+
+          <span class="span">Social Media</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo logonavbar">
+          <img src="logo.svg" width="80" height="50" alt="Grilli - Home" />
+        </a>
+
+        <!-- 
+  add active or not
+  -->
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="logo.svg"
+              width="90"
+              height="50"
+              alt="Boga Asri - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <!-- 
+              added
+              menu to feature
+             -->
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Feature</span>
+              </a>
+            </li>
+
+            <!-- 
+              added
+              about us to feature
+              change hove-underline to icon/title
+             -->
+            <li class="navbar-item">
+              <a
+                href="#watchvideo"
+                class="navbar-link hover-underline watchvideo"
+              >
+                <div class="separator"></div>
+
+                <span class="span">Watch Video</span>
+              </a>
+            </li>
+
+            <!-- 
+              Contact to Help
+             -->
+            <li class="navbar-item">
+              <a href="#help" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Help</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <a href="" class="downloadtext-center">
+              <h1>DOWNLOAD</h1>
+            </a>
+
+            <div class="separatorbox">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="contact-label">feedback</p>
+
+            <a
+              href="tel:mailto:bogorasri@gov.id"
+              class="body-1 contact-number hover-underline"
+            >
+              bogorasri@gov.id
+            </a>
+          </div>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">
+          <span class="text text-1">Download</span>
+
+          <span class="text text-2" aria-hidden="true">Download Boga</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <!-- 
+    #heromain
+    -->
+
+        <section class="heromain text-center" aria-label="home" id="home">
+          <ul class="heromain-slider" data-heromain-slider>
+            <li class="slider-item active" data-heromain-slider-item>
+              <div class="slider-bg">
+                <video autoplay loop muted plays-inline class="back-video">
+                  <source
+                    src="lol.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+
+              <p class="label-2 section-subtitle pheromain">
+                Dinas Kabupaten Bogor present
+              </p>
+
+              <h1 class="display-1 heromain-title">Boga Asri</h1>
+
+              <p class="body-2 heromain-text">
+                From report problem, navigate traffic to check grocery prices.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+          #Slider-Section
+         -->
+
+    <!-- #HERO -->
+    <section class="hero text-center" aria-label="hero" id="hero">
+      <!-- change data-hero-slider to record-hero-slider -->
+      <ul class="hero-slider" record-hero-slider>
+        <li class="slider-item active" record-hero-slider-item>
+          <div class="slider-bg">
+            <img src="Hero Banner1.png" alt="" class="img-cover" />
+          </div>
+        </li>
+
+        <li class="slider-item" record-hero-slider-item>
+          <div class="slider-bg">
+            <img
+              src="Hero Banner2.png"
+              width="1880"
+              height="950"
+              alt=""
+              class="img-cover"
+            />
+          </div>
+        </li>
+
+        <li class="slider-item" record-hero-slider-item>
+          <div class="slider-bg">
+            <img
+              src="Hero Banner3.png"
+              width="1880"
+              height="950"
+              alt=""
+              class="img-cover"
+            />
+          </div>
+        </li>
+
+        <li class="slider-item" record-hero-slider-item>
+          <div class="slider-bg">
+            <img
+              src="Hero Banner4.png"
+              width="1880"
+              height="950"
+              alt=""
+              class="img-cover"
+            />
+          </div>
+        </li>
+
+        <li class="slider-item" record-hero-slider-item>
+          <div class="slider-bg">
+            <img
+              src="Hero Banner5.png"
+              width="1880"
+              height="950"
+              alt=""
+              class="img-cover"
+            />
+          </div>
+        </li>
+
+        <button
+          id="prev"
+          class="slider-btn prev"
+          aria-label="slide to previous"
+          record-prev-btn
+        >
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button
+          id="next"
+          class="slider-btn next"
+          aria-label="slide to next"
+          record-next-btn
+        >
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+      </ul>
+      <ul class="dots-hero" record-dots-hero>
+        <li class="activedots-hero" record-dots-hero-item></li>
+        <li record-dots-hero-item></li>
+        <li record-dots-hero-item></li>
+        <li record-dots-hero-item></li>
+        <li record-dots-hero-item></li>
+      </ul>
+    </section>
+
+    <!-- #HERO Character Slider-Section -->
+    <section class="section service main-container bg-black-10 text-center" aria-label="service">
+      <div class="container" section-service-container>
+        <h2 class="headline-1 section-title margin-top ">Boga's Character</h2>
+
+        <p class="section-subtitle label-2 margin-bottom">Find your best needs</p>
+
+        <div class="tab-nav-bar">
+          <div class="tab-navigation" tab-navigation-button>
+            <ion-icon class="left-btn" name="chevron-back" btn-service-back></ion-icon>
+            <ion-icon class="right-btn" name="chevron-forward" btn-service-forward></ion-icon>
+            <ul class="tab-menu">
+              <li class="tab-btn active" tab-btn-record-button>Student</li>
+              <li class="tab-btn" tab-btn-record-button>Worker</li>
+              <li class="tab-btn" tab-btn-record-button>Job Seeker</li>
+              <li class="tab-btn" tab-btn-record-button>Entrepeneur</li>
+              <li class="tab-btn" tab-btn-record-button>Traveler</li>
+              <li class="tab-btn" tab-btn-record-button>Homemaker</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab-content">
+          <div class="tab active" tab-content-record-main>
+            <div class="row">
+              <div class="left-column">
+                <img src="1200x1200px for square box1student.png" alt="" class="img-card">
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Student</h2>
+                  <div class="description">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates placeat in quod, quo cumque maiores nostrum recusandae rerum ipsum. Nostrum, quibusdam. Delectus, voluptates dolore reprehenderit qui officiis cumque cum.</div>
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" tab-content-record-main>
+            <div class="row">
+              <div class="left-column">
+                <img src="1200x1200px for square box2worker.png" alt="" class="img-card">
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Worker</h2>
+                  <div class="description">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates placeat in quod, quo cumque maiores nostrum recusandae rerum ipsum. Nostrum, quibusdam. Delectus, voluptates dolore reprehenderit qui officiis cumque cum.</div>
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab" tab-content-record-main>
+            <div class="row">
+              <div class="left-column">
+                <img src="1200x1200px for square box3job seeker.png" alt="" class="img-card">
+              </div>
+              <div class="right-column">
+                  <div class="info">
+                  <h2 class="city">Job Seeker</h2>
+                  <div class="description">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates placeat in quod, quo cumque maiores nostrum recusandae rerum ipsum. Nostrum, quibusdam. Delectus, voluptates dolore reprehenderit qui officiis cumque cum.</div>
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" tab-content-record-main>
+            <div class="row">
+              <div class="left-column">
+                <img src="1200x1200px for square box4entrepeneur.png" alt="" class="img-card">
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Entrepeneur</h2>
+                  <div class="description">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates placeat in quod, quo cumque maiores nostrum recusandae rerum ipsum. Nostrum, quibusdam. Delectus, voluptates dolore reprehenderit qui officiis cumque cum.</div>
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" tab-content-record-main>
+            <div class="row">
+              <div class="left-column">
+                <img src="1200x1200px for square box5traveler.png" alt="" class="img-card">
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Traveler</h2>
+                  <div class="description">
+                    <p>
+                      Lorem ipsusm, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates placeat in quod, quo cumque maiores nostrum recusandae rerum ipsum. Nostrum, quibusdam. Delectus, voluptates dolore reprehenderit qui officiis cumque cum.</div>
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" tab-content-record-main>
+            <div class="row">
+              <div class="left-column">
+                <img src="1200x1200px for square box6homemaker.png" alt="" class="img-card">
+              </div>
+              <div class="right-column">
+                <div class="info">
+                  <h2 class="city">Homemaker</h2>
+                  <div class="description">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptates placeat in quod, quo cumque maiores nostrum recusandae rerum ipsum. Nostrum, quibusdam. Delectus, voluptates dolore reprehenderit qui officiis cumque cum.</div>
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+     
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
